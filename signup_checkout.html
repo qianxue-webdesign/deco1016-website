@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--website name-->
+        <title>signup_checkout</title>
+        <!--set the visual of different screen-->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--set the responsive footer visual-->
+        <meta name="keywords" content="footer, address, phone, icons">
+                
+        <!--link with the css-->
+        <link rel="stylesheet" href="css/checkout.css">
+        <!--link the social icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+
+    <body>
+        <!--build the nav bar in the top-->
+        <nav class="navbar">
+                <!--place the logo, and make a link in the logo, when user click the logo, it can be back to the home page-->
+                    <a href="index.html" class="logo">MOVIEFAN</a>
+                </nav>
+
+                <div class="row">
+                  <div class="col-75">
+                    <div class="container">
+                      <form action="/action_page.php">
+                
+                        <div class="row">
+                          <div class="col-50">
+                            <h3>Billing Address</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="email" placeholder="john@example.com">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                            <input type="text" id="adr" name="address" placeholder="542 river St">
+                            <label for="city"><i class="fa fa-institution"></i> Suburb</label>
+                            <input type="text" id="city" name="city" placeholder="Eastwood">
+                
+                            <div class="row">
+                              <div class="col-50">
+                                <label for="state">State</label>
+                                <input type="text" id="state" name="state" placeholder="NSW">
+                              </div>
+                              <div class="col-50">
+                                <label for="zip">Postcode</label>
+                                <input type="text" id="zip" name="zip" placeholder="2120">
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="col-50">
+                            <h3>Payment</h3>
+                            <label for="fname">Accepted Cards</label>
+                            <div class="icon-container">
+                              <i class="fa fa-cc-visa" style="color:navy;"></i>
+                              <i class="fa fa-cc-amex" style="color:blue;"></i>
+                              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                              <i class="fa fa-cc-discover" style="color:orange;"></i>
+                            </div>
+                            <label for="cname">Name on Card</label>
+                            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                            <label for="ccnum">Credit card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Exp Month</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                
+                            <div class="row">
+                              <div class="col-50">
+                                <label for="expyear">Exp Year</label>
+                                <input type="text" id="expyear" name="expyear" placeholder="2018">
+                              </div>
+                              <div class="col-50">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" name="cvv" placeholder="352">
+                              </div>
+                            </div>
+                          </div>
+                
+                        </div>
+                        <a href="end.html" class="next">Next &raquo;</a>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- FOOTER-->
+        <div class="footer">
+          <div class="contain">
+              <!--first col-->
+              <div class="col">
+                  <h1>Company</h1>
+                      <ul>
+                          <li>12 hill st, westwood</br>
+                              Sydney, Australia</br>
+                              NSW 2221</li>
+                          <li>+61 123456789</li>
+                          <li>copyright@2019 moviefan Ltd.</li>
+                      </ul>
+              </div>
+              <!--second col-->
+              <div class="col">
+                  <h1>Support</h1>
+                      <ul>
+                          <li>Email: support@moviefan.com</li>
+                          <li>Feedback: feedback@moviefan.com</li>
+                      </ul>
+              </div>
+              <!--social media logo with the link-->
+              <div class="col social">
+                  <h1>Social</h1>
+                      <ul>
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                      </ul>
+              </div>
+              <div class="clearfix"></div>
+          </div>
+      </div>
+
+  <!-- JS -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/signup.js"></script>
+
+</body>
+</html>

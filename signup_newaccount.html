@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--set the responsive visual-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!--set the responsive footer visual-->
+        <meta name="keywords" content="footer, address, phone, icons">
+
+        <!--website name-->
+        <title>signup_newaccount</title>
+
+        <!--link the error checker's logo css-->
+        <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+        <!--link the error checker-->
+        <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.min.css">
+    
+        <!--link with the main css-->
+        <link rel="stylesheet" href="css/signup.css">
+
+        <!--link the social icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+
+    <body>
+        <!--build the nav bar in the top-->
+        <nav class="navbar">
+            <!--place the logo, and make a link in the logo, when user click the logo, it can be back to the home page-->
+            <a href="index.html" class="logo">MOVIEFAN</a>        
+        </nav>
+
+        <!--signup page-->
+        <div class="main">
+            <section class="signup">
+                <div class="container">
+                    <div class="signup-content">
+                        <form method="POST" id="signup-form" class="signup-form">
+                            <h2 class="form-title">Create account</h2>
+                        </br>
+                            <div class="form-group">
+                                <input type="text" class="form-input" name="name" id="name" placeholder="Your Name"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-input" name="email" id="email" placeholder="Your Email"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
+                                <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-input" name="re_password" id="re_password" placeholder="Repeat your password"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up" onclick = "window.location.href ='signup_pricing.html';"/>
+                            </div>
+                        </form>
+                        <p class="loginhere">
+                            Have already an account ? <a href="signin.html" class="loginhere-link">Login here</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+    
+        </div>
+          
+        </br> 
+        </br>
+        </br> 
+        </br>
+        </br> 
+        </br>
+        </br> 
+        </br>
+        </br> 
+        </br>    
+        </br>
+        </br> 
+        </br> 
+        </br> 
+        </br>  
+        </br> 
+        </br>  
+             
+        <!-- FOOTER-->
+        <div class="footer">
+            <div class="contain">
+                <!--first col-->
+                <div class="col">
+                    <h1>Company</h1>
+                        <ul>
+                            <li>12 hill st, westwood</br>
+                                Sydney, Australia</br>
+                                NSW 2221</li>
+                            <li>+61 123456789</li>
+                            <li>copyright@2019 moviefan Ltd.</li>
+                        </ul>
+                </div>
+                <!--second col-->
+                <div class="col">
+                    <h1>Support</h1>
+                        <ul>
+                            <li>Email: support@moviefan.com</li>
+                            <li>Feedback: feedback@moviefan.com</li>
+                        </ul>
+                </div>
+                <!--social media logo with the link-->
+                <div class="col social">
+                    <h1>Social</h1>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+    </body>
+
+</html>
